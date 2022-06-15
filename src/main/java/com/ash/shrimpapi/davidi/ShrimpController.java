@@ -1,4 +1,4 @@
-package com.ash.shrimpapi.resources;
+package com.ash.shrimpapi.davidi;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -74,7 +74,7 @@ public class ShrimpController {
 
   private Map<String, Iterable<Shrimp>> createHashPlural(Iterable<Shrimp> shrimps) {
     Map<String, Iterable<Shrimp>> response = new HashMap<String, Iterable<Shrimp>>();
-    response.put("results", shrimps);
+    response.put("shrimp", shrimps);
 
     return response;
   }

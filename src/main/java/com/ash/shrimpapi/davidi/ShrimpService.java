@@ -1,4 +1,4 @@
-package com.ash.shrimpapi.resources;
+package com.ash.shrimpapi.davidi;
 
 import java.util.Optional;
 

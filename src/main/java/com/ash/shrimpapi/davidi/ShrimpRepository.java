@@ -1,4 +1,4 @@
-package com.ash.shrimpapi.resources;
+package com.ash.shrimpapi.davidi;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
