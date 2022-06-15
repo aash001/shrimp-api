@@ -11,7 +11,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "davidi")
+@Table(name = "shrimps")
 public class Shrimp {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)

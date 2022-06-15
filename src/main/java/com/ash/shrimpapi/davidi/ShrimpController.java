@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin
 @RestController
-@RequestMapping("api/shrimp")
+@RequestMapping("api/shrimps")
 public class ShrimpController {
   @Autowired
   private ShrimpService shrimpService;
@@ -74,7 +74,7 @@ public class ShrimpController {
 
   private Map<String, Iterable<Shrimp>> createHashPlural(Iterable<Shrimp> shrimps) {
     Map<String, Iterable<Shrimp>> response = new HashMap<String, Iterable<Shrimp>>();
-    response.put("shrimp", shrimps);
+    response.put("shrimps", shrimps);
 
     return response;
   }
